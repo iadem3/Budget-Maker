@@ -65,6 +65,7 @@ static DecimalFormat numberFormat = new DecimalFormat("#.00");
 			output.println(transportation);
 			output.println(budget);
 		}
+		output.close();
 	}
 	
 	private static void editBudget(String input) throws FileNotFoundException {
